@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="game-header">
+        <h1>Flexbox Quest</h1>
+
+        <div class="game-info">
+            <span>Lives: <strong>3</strong></span>
+            <span>Coins: <strong>120</strong></span>
+            <span>Score: <strong>1250</strong></span>
+            <span>Level: <strong>1</strong></span>
+        </div>
+
+        <div class="header-actions">
+            <button>Pause</button>
+            <button>Menu</button>
+        </div>
+    </header>
+    <main>
+        <section class="game-area">
+            <div class="game-area-title">GAME AREA</div>
+            <div class="game-message">Collect all the stars!</div>
+            <div class="game-row row-top">
+                <div class="player">PLAYER</div>
+                <div class="star">STAR</div>
+            </div>
+
+            <div class="game-row row-middle">
+                <div class="platform">PLATFORM</div>
+            </div>
+
+            <div class="game-row row-bottom">
+                <div class="platform">PLATFORM</div>
+                <div class="platform">PLATFORM</div>
+            </div>
+        </section>
+        <section class="game-panels">
+            <div class="panel controls">
+                <h2>Controls</h2>
+                <div class="control-row">
+                    <button class="button-direction">↑</button>
+                </div>
+                <div class="control-row">
+                    <button class="button-direction">←</button>
+                    <button class="button-direction">↓</button>
+                    <button class="button-direction">→</button>
+                </div>
+                <button class="button-jump">JUMP</button>
+            </div>
+            <div class="panel inventory">
+                <h2>Inventory</h2>
+                <div class="inventory-items">
+                    <div class="item">Bow</div>
+                    <div class="item">Magic Potion</div>
+                    <div class="item">Map</div>
+                    <div class="item">Shield</div>
+                    <div class="item">Coin</div>
+                    <div class="item">Key</div>
+                </div>
+            </div>
+            <div class="panel quest">
+                <h2>Quests</h2>
+                <div class="quest-list">
+                    <div class="quest-item">
+                        <span>Collect 3 Stars</span>
+                        <span class="quest-progress">1 / 3</span>
+                    </div>
+                    <div class="quest-item">
+                        <span>Find Golden Key</span>
+                        <span class="quest-progress">0 / 1</span>
+                    </div>
+                    <div class="quest-item">
+                        <span>Defeat Monster</span>
+                        <span class="quest-progress">0 / 1</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Flexbox Quest — Built using HTML & CSS Flexbox</p>
+    </footer>
+</body>
+</html>
